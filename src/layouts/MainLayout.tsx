@@ -102,7 +102,7 @@ const MainLayout: React.FC = () => {
     <Layout className="main-layout">
       <Sider trigger={null} collapsible collapsed={collapsed} className="sidebar">
         <div className="logo">
-          <h1>{collapsed ? 'N' : '笔记管理'}</h1>
+          <h1>{collapsed ? 'M' : 'Mind Guardian'}</h1>
         </div>
         <Menu
           theme="dark"

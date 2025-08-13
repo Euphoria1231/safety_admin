@@ -3,7 +3,7 @@ import { message } from 'antd';
 import type { ApiResponse } from '@/types';
 
 // API基础配置
-const API_BASE_URL = import.meta.env.VITE_API_BASE_URL || 'http://localhost:5000/api/admin';
+const API_BASE_URL = import.meta.env.VITE_API_BASE_URL || 'http://117.72.183.76:5000/api/admin';
 
 // 创建axios实例
 const api = axios.create({

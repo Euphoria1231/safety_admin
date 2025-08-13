@@ -48,7 +48,7 @@ const Login: React.FC = () => {
       </div>
       <Card className="login-card" title={null} bordered={false}>
         <div className="login-header">
-          <h1 className="login-title">笔记管理系统</h1>
+          <h1 className="login-title">Mind Guardian</h1>
           <p className="login-subtitle">管理员后台登录</p>
         </div>
 
@@ -85,10 +85,6 @@ const Login: React.FC = () => {
           </Form.Item>
         </Form>
 
-        <div className="login-tips">
-          <p>默认管理员账号：admin</p>
-          <p>默认密码：admin123456</p>
-        </div>
       </Card>
     </div>
   );

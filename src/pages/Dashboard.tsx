@@ -110,7 +110,7 @@ const Dashboard: React.FC = () => {
     <div className="dashboard">
       <div className="page-header">
         <h1 className="page-title">管理员仪表盘</h1>
-        <p className="page-description">欢迎使用笔记管理系统，这里是管理员系统概览</p>
+        <p className="page-description">欢迎使用Mind Guardian，这里是管理员系统概览</p>
       </div>
 
       {/* 统计卡片 */}
